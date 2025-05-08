@@ -14,9 +14,9 @@ public class Upper {
           // if((c>='a'&& c<='z')||(c>='A'&&c<='Z'))//for print both small and capital char
           //if(c>='a'|| c<='z')
           //if(Character.isUpperCase(c)){to change caps to small
-          if(Character.isLowerCase(c)){//to convert small to caps
+          //if(Character.isLowerCase(c)){//to convert small to caps
             System.out.println(Character.toUpperCase(c));
-           }
+          // }
         }
    }
 }
